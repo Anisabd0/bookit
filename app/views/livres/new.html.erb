@@ -1,0 +1,11 @@
+<% content_for :title, "New livre" %>
+
+<h1>New livre</h1>
+
+<%= render "form", livre: @livre %>
+
+<br>
+
+<div>
+  <%= link_to "Back to livres", livres_path %>
+</div>
